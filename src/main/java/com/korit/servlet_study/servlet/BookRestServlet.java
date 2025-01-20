@@ -27,7 +27,7 @@ public class BookRestServlet extends HttpServlet {
                 .bookName("Test Book")
                 .authorId(author.getAuthorId())
                 .author(author)
-                .isbn("123")
+                .isbn("1")
                 .publisher(publisher)
                 .category(bookCategory)
                 .bookImgUrl("https://www.test.com")

@@ -12,7 +12,6 @@
     <list default="true" id="b77ddd85-54d8-4837-9df2-735309d3a01d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BookRestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BookRestServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/UserRestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/UserRestServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -191,7 +190,7 @@
       <workItem from="1737096657160" duration="6257000" />
       <workItem from="1737332898488" duration="19000" />
       <workItem from="1737332929383" duration="1838000" />
-      <workItem from="1737335153927" duration="2314000" />
+      <workItem from="1737335153927" duration="3808000" />
     </task>
     <servers />
   </component>
