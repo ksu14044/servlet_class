@@ -18,31 +18,30 @@ public class BookRestServlet extends HttpServlet {
 
         Author author = new Author(1, "testAuthor");
 
-        Publisher publisher = new Publisher(1, "TestPublisher");
+        Publisher publisher = new Publisher(1, "testPublisher");
 
         BookCategory bookCategory = new BookCategory(1, "testBookCategory");
 
         Book book = Book.builder()
                 .bookId(1)
                 .bookName("Test Book")
-                .authorId(1)
+                .authorId(author.getAuthorId())
                 .author(author)
                 .isbn("123")
                 .publisher(publisher)
                 .category(bookCategory)
                 .bookImgUrl("https://www.test.com")
-                .publisherId(1)
+                .publisherId(publisher.getPublisherId())
                 .build();
 
-        resp.setHeader("Access-Control-Allow-Origin", "*");
-        resp.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE");
-        resp.setHeader("Access-Control-Allow-Headers", "Content-Type");
-        resp.setHeader("Content-Type", "application/json");
-        resp.setHeader("Access-Control-Allow-Credentials", "true");
+//        resp.setHeader("Access-Control-Allow-Origin", "*");
+//        resp.setHeader("Access-Control-Allow-Methods", "POST, GET, OPTIONS");
+//        resp.setHeader("Access-Control-Allow-Headers", "Content-Type");
+//        resp.setHeader("Access-Control-Allow-Credentials", "true");
 
         String json = objectMapper.writeValueAsString(book);
         resp.setContentType("application/json");
-        resp.getWriter().write(json);
+        resp.getWriter().println(json);
     }
 
     @Override
