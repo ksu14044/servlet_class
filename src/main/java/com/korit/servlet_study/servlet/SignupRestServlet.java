@@ -44,5 +44,8 @@ public class SignupRestServlet extends HttpServlet {
         resp.getWriter().println(responseJson);
     }
 
+    @Override
+    protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
 
+    }
 }

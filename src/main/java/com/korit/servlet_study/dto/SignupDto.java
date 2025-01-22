@@ -5,6 +5,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.mindrot.jbcrypt.BCrypt;
 
 
 @Data
@@ -19,7 +20,7 @@ public class SignupDto {
     public User toUser() {
         return  User.builder()
                 .username(username)
-                .password(password)
+                .password(BCrypt.hashpw(password, BCrypt.gensalt(10)))
                 .name(name)
                 .email(email)
                 .build();

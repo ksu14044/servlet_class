@@ -11,11 +11,11 @@
   <component name="ChangeListManager">
     <list default="true" id="b77ddd85-54d8-4837-9df2-735309d3a01d" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/BoardDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/BoardDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/UserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/BoardService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/BoardService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BoardRestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/BoardRestServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/AuthDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dao/AuthDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dto/SignupDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/dto/SignupDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/AuthService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/service/AuthService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/SignupRestServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/korit/servlet_study/servlet/SignupRestServlet.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +196,7 @@
       <workItem from="1737332929383" duration="1838000" />
       <workItem from="1737335153927" duration="11090000" />
       <workItem from="1737419702385" duration="21878000" />
-      <workItem from="1737504686211" duration="12600000" />
+      <workItem from="1737504686211" duration="24689000" />
     </task>
     <servers />
   </component>
