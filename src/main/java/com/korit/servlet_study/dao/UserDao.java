@@ -47,7 +47,7 @@ public class UserDao {
 
             while (rs.next()) {
                 users.add(User.builder()
-                                .userId(rs.getInt(1))
+                                .user_id(rs.getInt(1))
                                 .username(rs.getString(2))
                                 .password(rs.getString(3))
                                 .name(rs.getString(4))
@@ -86,7 +86,7 @@ public class UserDao {
             rs = ps.executeQuery();
             while (rs.next()) {
                 users.add(User.builder()
-                                .userId(rs.getInt(1))
+                                .user_id(rs.getInt(1))
                                 .username(rs.getString(2))
                                 .password(rs.getString(3))
                                 .name(rs.getString(4))
@@ -122,7 +122,7 @@ public class UserDao {
             ResultSet keyRs = ps.getGeneratedKeys();
             keyRs.next();
             int userId = keyRs.getInt(1);
-            user.setUserId(userId);
+            user.setUser_id(userId);
 
         } catch (Exception e) {
             e.printStackTrace();
