@@ -47,7 +47,7 @@ public class AuthDao {
             rs = ps.executeQuery();
             if (rs.next()) {
                 foundUser = User.builder()
-                        .user_id(rs.getInt("user_id"))
+                        .userId(rs.getInt("user_id"))
                         .username(rs.getString("username"))
                         .password(rs.getString("password"))
                         .name(rs.getString("name"))
@@ -84,7 +84,7 @@ public class AuthDao {
             ResultSet rs = ps.getGeneratedKeys();
             if (rs.next()) {
                 insertUser = User.builder()
-                        .user_id(rs.getInt(1))
+                        .userId(rs.getInt(1))
                         .username(user.getUsername())
                         .password(user.getPassword())
                         .name(user.getName())

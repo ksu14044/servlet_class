@@ -34,7 +34,7 @@ public class JwtProvider {
 
     public String generateToken(User user) {
         return Jwts.builder()
-                .claim("user_id", user.getUser_id())
+                .claim("userId", user.getUserId())
                 .setExpiration(getExpiryDate())
                 .signWith(key, SignatureAlgorithm.HS256)
                 .compact();
